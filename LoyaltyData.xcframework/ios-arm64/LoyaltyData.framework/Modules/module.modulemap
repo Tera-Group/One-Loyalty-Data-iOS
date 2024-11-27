@@ -1,0 +1,8 @@
+framework module LoyaltyData {
+    umbrella header "LoyaltyData.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
