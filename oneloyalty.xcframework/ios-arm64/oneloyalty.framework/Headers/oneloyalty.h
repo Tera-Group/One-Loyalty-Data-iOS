@@ -1206,7 +1206,10 @@ __attribute__((swift_name("UserInAppProductBenefit.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) OneloyaltyUserInAppProductBenefitCompanion *shared __attribute__((swift_name("shared")));
+- (OneloyaltyUserInAppProductBenefit *)fromStringJson:(NSString *)json __attribute__((swift_name("fromString(json:)")));
 - (OneloyaltyUserInAppProductBenefit * _Nullable)getBestValidBenefitBenefits:(id)benefits currMillisecond:(int64_t)currMillisecond __attribute__((swift_name("getBestValidBenefit(benefits:currMillisecond:)")));
+- (NSString *)jsonStringFromList:(NSArray<OneloyaltyUserInAppProductBenefit *> *)list __attribute__((swift_name("jsonStringFrom(list:)")));
+- (NSArray<OneloyaltyUserInAppProductBenefit *> *)listFromStringJson:(NSString *)json __attribute__((swift_name("listFromString(json:)")));
 - (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1333,6 +1336,9 @@ __attribute__((swift_name("CheckInClaimRule.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) OneloyaltyCheckInClaimRuleCompanion *shared __attribute__((swift_name("shared")));
+- (OneloyaltyCheckInClaimRule *)fromStringJson:(NSString *)json __attribute__((swift_name("fromString(json:)")));
+- (NSString *)jsonStringFromList:(NSArray<OneloyaltyCheckInClaimRule *> *)list __attribute__((swift_name("jsonStringFrom(list:)")));
+- (NSArray<OneloyaltyCheckInClaimRule *> *)listFromStringJson:(NSString *)json __attribute__((swift_name("listFromString(json:)")));
 - (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1448,6 +1454,9 @@ __attribute__((swift_name("Mission.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) OneloyaltyMissionCompanion *shared __attribute__((swift_name("shared")));
+- (OneloyaltyMission *)fromStringJson:(NSString *)json __attribute__((swift_name("fromString(json:)")));
+- (NSString *)jsonStringFromList:(NSArray<OneloyaltyMission *> *)list __attribute__((swift_name("jsonStringFrom(list:)")));
+- (NSArray<OneloyaltyMission *> *)listFromStringJson:(NSString *)json __attribute__((swift_name("listFromString(json:)")));
 - (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
