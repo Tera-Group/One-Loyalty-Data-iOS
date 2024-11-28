@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>oneloyalty</string>
     <key>CFBundleIdentifier</key>
-    <string>com.teragroup.io.onappdata.oneloyalty</string>
+    <string>oneloyalty</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

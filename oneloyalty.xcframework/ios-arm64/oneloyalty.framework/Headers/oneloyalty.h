@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class OneloyaltyOneLoyalty, OneloyaltyDeviceTimezone, OneloyaltyConfig, OneloyaltyPlatform, OneloyaltyRemoteConfig, OneloyaltyCertificatePinning, OneloyaltyLanguage, OneloyaltyDocumentUrl, OneloyaltyUpgrading, OneloyaltySupportConfigs, OneloyaltyInAppWebView, OneloyaltySignInOption, OneloyaltyTrackingSDK, OneloyaltyOutsideApp, OneloyaltyDataConfigCompanion, OneloyaltyDataConfig, OneloyaltyDocumentUrlCompanion, OneloyaltyInAppWebViewCompanion, OneloyaltyLanguageCompanion, OneloyaltyOutsideAppCompanion, OneloyaltyRemoteConfigCompanion, OneloyaltySupportConfigsCompanion, OneloyaltySurveyConfigCompanion, OneloyaltySurveyConfig, OneloyaltyUpgradingCompanion, OneloyaltyDeviceType, OneloyaltyDeviceCompanion, OneloyaltyDevice, OneloyaltyDeviceTimezoneCompanion, OneloyaltyFactModelType, OneloyaltyFactType, OneloyaltyFactCompanion, OneloyaltyFact, OneloyaltyMiniAppType, OneloyaltyMiniAppIdentifier, OneloyaltyProvider, OneloyaltyMiniAppCompanion, OneloyaltyMiniApp, OneloyaltyMiniAppIdentifierCompanion, OneloyaltyMiniAppIdentifierAction, OneloyaltyPagingInfoCompanion, OneloyaltyPagingInfo, OneloyaltyProviderType, OneloyaltyProviderCompanion, OneloyaltyTheme, OneloyaltyAppConfigurationCompanion, OneloyaltyAppConfiguration, OneloyaltyKotlinEnumCompanion, OneloyaltyKotlinEnum<E>, OneloyaltySignInOptionCompanion, OneloyaltyKotlinArray<T>, OneloyaltySignInOptionSerializer, OneloyaltyThemeCompanion, OneloyaltyTrackingSDKCompanion, OneloyaltyTrackingSDKSerializer, OneloyaltyDeviceTypeCompanion, OneloyaltyDeviceTypeSerializer, OneloyaltyFactModelTypeCompanion, OneloyaltyFactModelTypeSerializer, OneloyaltyFactTypeCompanion, OneloyaltyFactTypeSerializer, OneloyaltyGenderCompanion, OneloyaltyGender, OneloyaltyGenderSerializer, OneloyaltyMiniAppIdentifierActionCompanion, OneloyaltyMiniAppTypeCompanion, OneloyaltyMiniAppTypeSerializer, OneloyaltyProviderTypeCompanion, OneloyaltyProviderTypeSerializer, OneloyaltyStoreTypeCompanion, OneloyaltyStoreType, OneloyaltyStoreTypeSerializer, OneloyaltyInAppProductBenefitType, OneloyaltyProductDurationUnit, OneloyaltyInAppProductBenefitCompanion, OneloyaltyInAppProductBenefit, OneloyaltyUserInAppProductBenefitCompanion, OneloyaltyUserInAppProductBenefit, OneloyaltyInAppProductBenefitTypeCompanion, OneloyaltyInAppProductBenefitTypeSerializer, OneloyaltyProductDurationUnitCompanion, OneloyaltyProductDurationUnitSerializer, OneloyaltyBurnTransactionRequestCompanion, OneloyaltyBurnTransactionRequest, OneloyaltyCheckInClaimRuleCompanion, OneloyaltyCheckInClaimRule, OneloyaltyClaimRequestCompanion, OneloyaltyClaimRequest, OneloyaltyLoyaltyConfigurationCompanion, OneloyaltyLoyaltyConfiguration, OneloyaltyLoyaltyAction, OneloyaltyLoyaltySource, OneloyaltyLoyaltyHistoryCompanion, OneloyaltyLoyaltyHistory, OneloyaltyMission, OneloyaltyPrize, OneloyaltyMissionCategory, OneloyaltyMissionType, OneloyaltyUserMission, OneloyaltyMissionCompanion, OneloyaltyPrizeCompanion, OneloyaltyUserProfile, OneloyaltyReferralHistoryCompanion, OneloyaltyReferralHistory, OneloyaltyUpdateUserMissionProgressRequestCompanion, OneloyaltyUpdateUserMissionProgressRequest, OneloyaltyUserLoyaltyCompanion, OneloyaltyUserLoyalty, OneloyaltyMissionStatus, OneloyaltyUserMissionCompanion, OneloyaltyLoyaltyActionCompanion, OneloyaltyLoyaltyActionSerializer, OneloyaltyLoyaltyConfigurationKeyCompanion, OneloyaltyLoyaltyConfigurationKey, OneloyaltyLoyaltyConfigurationKeySerializer, OneloyaltyLoyaltySourceCompanion, OneloyaltyLoyaltySourceSerializer, OneloyaltyMissionCategoryCompanion, OneloyaltyMissionCategorySerializer, OneloyaltyMissionStatusCompanion, OneloyaltyMissionStatusSerializer, OneloyaltyMissionTypeCompanion, OneloyaltyMissionTypeSerializer, OneloyaltyUserProfileCompanion, OneloyaltyKotlinThrowable, OneloyaltyKotlinError, OneloyaltyONErrorCode, OneloyaltyONError, OneloyaltyOnHttpError, OneloyaltyApiResponseCompanion, OneloyaltyApiResponse<T>, OneloyaltyErrorResponseCompanion, OneloyaltyErrorResponse, OneloyaltyPaginationResponseCompanion, OneloyaltyPaginationResponse<T>, OneloyaltyPagingResponseCompanion, OneloyaltyPagingResponse<T>, OneloyaltyJsonProvider, OneloyaltyKotlinx_serialization_jsonJson, OneloyaltyOnAppDataStorageAccessible, OneloyaltyKtor_client_coreHttpClientConfig<T>, OneloyaltyKtor_client_coreHttpClient, OneloyaltyKotlinx_serialization_jsonJsonElement, OneloyaltyKotlinException, OneloyaltyKotlinRuntimeException, OneloyaltyKotlinIllegalStateException, OneloyaltyKotlinx_serialization_coreSerializersModule, OneloyaltyKotlinx_serialization_coreSerialKind, OneloyaltyKotlinNothing, OneloyaltyKotlinx_serialization_jsonJsonDefault, OneloyaltyKotlinx_serialization_jsonJsonConfiguration, OneloyaltyKtor_client_coreHttpClientEngineConfig, OneloyaltyKtor_eventsEvents, OneloyaltyKtor_client_coreHttpReceivePipeline, OneloyaltyKtor_client_coreHttpRequestPipeline, OneloyaltyKtor_client_coreHttpResponsePipeline, OneloyaltyKtor_client_coreHttpSendPipeline, OneloyaltyKtor_utilsAttributeKey<T>, OneloyaltyKotlinx_serialization_jsonJsonElementCompanion, OneloyaltyKtor_client_coreHttpRequestData, OneloyaltyKtor_client_coreHttpResponseData, OneloyaltyKotlinx_coroutines_coreCoroutineDispatcher, OneloyaltyKtor_client_coreProxyConfig, OneloyaltyKtor_eventsEventDefinition<T>, OneloyaltyKtor_utilsPipelinePhase, OneloyaltyKtor_utilsPipeline<TSubject, TContext>, OneloyaltyKtor_client_coreHttpReceivePipelinePhases, OneloyaltyKtor_client_coreHttpResponse, OneloyaltyKotlinUnit, OneloyaltyKtor_client_coreHttpRequestPipelinePhases, OneloyaltyKtor_client_coreHttpRequestBuilder, OneloyaltyKtor_client_coreHttpResponsePipelinePhases, OneloyaltyKtor_client_coreHttpResponseContainer, OneloyaltyKtor_client_coreHttpClientCall, OneloyaltyKtor_client_coreHttpSendPipelinePhases, OneloyaltyKtor_httpUrl, OneloyaltyKtor_httpHttpMethod, OneloyaltyKtor_httpOutgoingContent, OneloyaltyKtor_httpHttpStatusCode, OneloyaltyKtor_utilsGMTDate, OneloyaltyKtor_httpHttpProtocolVersion, OneloyaltyKotlinAbstractCoroutineContextElement, OneloyaltyKotlinx_coroutines_coreCoroutineDispatcherKey, OneloyaltyKtor_httpHeadersBuilder, OneloyaltyKtor_client_coreHttpRequestBuilderCompanion, OneloyaltyKtor_httpURLBuilder, OneloyaltyKtor_utilsTypeInfo, OneloyaltyKtor_client_coreHttpClientCallCompanion, OneloyaltyKtor_httpUrlCompanion, OneloyaltyKtor_httpURLProtocol, OneloyaltyKtor_httpHttpMethodCompanion, OneloyaltyKtor_httpContentType, OneloyaltyKotlinCancellationException, OneloyaltyKtor_httpHttpStatusCodeCompanion, OneloyaltyKtor_utilsGMTDateCompanion, OneloyaltyKtor_utilsWeekDay, OneloyaltyKtor_utilsMonth, OneloyaltyKtor_httpHttpProtocolVersionCompanion, OneloyaltyKotlinAbstractCoroutineContextKey<B, E>, OneloyaltyKtor_ioMemory, OneloyaltyKtor_ioChunkBuffer, OneloyaltyKtor_ioBuffer, OneloyaltyKotlinByteArray, OneloyaltyKtor_ioByteReadPacket, OneloyaltyKtor_utilsStringValuesBuilderImpl, OneloyaltyKtor_httpURLBuilderCompanion, OneloyaltyKtor_httpURLProtocolCompanion, OneloyaltyKtor_httpHeaderValueParam, OneloyaltyKtor_httpHeaderValueWithParametersCompanion, OneloyaltyKtor_httpHeaderValueWithParameters, OneloyaltyKtor_httpContentTypeCompanion, OneloyaltyKtor_utilsWeekDayCompanion, OneloyaltyKtor_utilsMonthCompanion, OneloyaltyKtor_ioMemoryCompanion, OneloyaltyKtor_ioBufferCompanion, OneloyaltyKtor_ioChunkBufferCompanion, OneloyaltyKotlinByteIterator, OneloyaltyKtor_ioInputCompanion, OneloyaltyKtor_ioInput, OneloyaltyKtor_ioByteReadPacketCompanion, OneloyaltyKotlinKTypeProjection, OneloyaltyKotlinKVariance, OneloyaltyKotlinKTypeProjectionCompanion;
+@class OneloyaltyOnTracking, OneloyaltyDeviceInfoProvider, OneloyaltyOneLoyalty, OneloyaltyDeviceTimezone, OneloyaltyUserProfile, OneloyaltyConfig, OneloyaltyAppContext, OneloyaltyPlatform, OneloyaltyRemoteConfig, OneloyaltyCertificatePinning, OneloyaltyLanguage, OneloyaltyDocumentUrl, OneloyaltyUpgrading, OneloyaltySupportConfigs, OneloyaltyInAppWebView, OneloyaltySignInOption, OneloyaltyTrackingSDK, OneloyaltyOutsideApp, OneloyaltyDataConfigCompanion, OneloyaltyDataConfig, OneloyaltyDocumentUrlCompanion, OneloyaltyInAppWebViewCompanion, OneloyaltyLanguageCompanion, OneloyaltyOutsideAppCompanion, OneloyaltyRemoteConfigCompanion, OneloyaltySupportConfigsCompanion, OneloyaltySurveyConfigCompanion, OneloyaltySurveyConfig, OneloyaltyUpgradingCompanion, OneloyaltyDeviceType, OneloyaltyDeviceCompanion, OneloyaltyDevice, OneloyaltyDeviceTimezoneCompanion, OneloyaltyFactModelType, OneloyaltyFactType, OneloyaltyFactCompanion, OneloyaltyFact, OneloyaltyMiniAppType, OneloyaltyMiniAppIdentifier, OneloyaltyProvider, OneloyaltyMiniAppCompanion, OneloyaltyMiniApp, OneloyaltyMiniAppIdentifierCompanion, OneloyaltyMiniAppIdentifierAction, OneloyaltyPagingInfoCompanion, OneloyaltyPagingInfo, OneloyaltyProviderType, OneloyaltyProviderCompanion, OneloyaltyTheme, OneloyaltyAppConfigurationCompanion, OneloyaltyAppConfiguration, OneloyaltyKotlinEnumCompanion, OneloyaltyKotlinEnum<E>, OneloyaltySignInOptionCompanion, OneloyaltyKotlinArray<T>, OneloyaltySignInOptionSerializer, OneloyaltyThemeCompanion, OneloyaltyTrackingSDKCompanion, OneloyaltyTrackingSDKSerializer, OneloyaltyDeviceTypeCompanion, OneloyaltyDeviceTypeSerializer, OneloyaltyFactModelTypeCompanion, OneloyaltyFactModelTypeSerializer, OneloyaltyFactTypeCompanion, OneloyaltyFactTypeSerializer, OneloyaltyGenderCompanion, OneloyaltyGender, OneloyaltyGenderSerializer, OneloyaltyMiniAppIdentifierActionCompanion, OneloyaltyMiniAppTypeCompanion, OneloyaltyMiniAppTypeSerializer, OneloyaltyProviderTypeCompanion, OneloyaltyProviderTypeSerializer, OneloyaltyStoreTypeCompanion, OneloyaltyStoreType, OneloyaltyStoreTypeSerializer, OneloyaltyInAppProductBenefitType, OneloyaltyProductDurationUnit, OneloyaltyInAppProductBenefitCompanion, OneloyaltyInAppProductBenefit, OneloyaltyUserInAppProductBenefitCompanion, OneloyaltyUserInAppProductBenefit, OneloyaltyInAppProductBenefitTypeCompanion, OneloyaltyInAppProductBenefitTypeSerializer, OneloyaltyProductDurationUnitCompanion, OneloyaltyProductDurationUnitSerializer, OneloyaltyBurnTransactionRequestCompanion, OneloyaltyBurnTransactionRequest, OneloyaltyCheckInClaimRuleCompanion, OneloyaltyCheckInClaimRule, OneloyaltyClaimRequestCompanion, OneloyaltyClaimRequest, OneloyaltyLoyaltyConfigurationCompanion, OneloyaltyLoyaltyConfiguration, OneloyaltyLoyaltyAction, OneloyaltyLoyaltySource, OneloyaltyLoyaltyHistoryCompanion, OneloyaltyLoyaltyHistory, OneloyaltyMission, OneloyaltyPrize, OneloyaltyMissionCategory, OneloyaltyMissionType, OneloyaltyUserMission, OneloyaltyMissionCompanion, OneloyaltyPrizeCompanion, OneloyaltyReferralHistoryCompanion, OneloyaltyReferralHistory, OneloyaltyUpdateUserMissionProgressRequestCompanion, OneloyaltyUpdateUserMissionProgressRequest, OneloyaltyUserLoyaltyCompanion, OneloyaltyUserLoyalty, OneloyaltyMissionStatus, OneloyaltyUserMissionCompanion, OneloyaltyLoyaltyActionCompanion, OneloyaltyLoyaltyActionSerializer, OneloyaltyLoyaltyConfigurationKeyCompanion, OneloyaltyLoyaltyConfigurationKey, OneloyaltyLoyaltyConfigurationKeySerializer, OneloyaltyLoyaltySourceCompanion, OneloyaltyLoyaltySourceSerializer, OneloyaltyMissionCategoryCompanion, OneloyaltyMissionCategorySerializer, OneloyaltyMissionStatusCompanion, OneloyaltyMissionStatusSerializer, OneloyaltyMissionTypeCompanion, OneloyaltyMissionTypeSerializer, OneloyaltyUserProfileCompanion, OneloyaltyAppCompanion, OneloyaltyApp, OneloyaltySdk, OneloyaltyAppContextCompanion, OneloyaltySdkCompanion, OneloyaltyKotlinThrowable, OneloyaltyKotlinError, OneloyaltyONErrorCode, OneloyaltyONError, OneloyaltyOnHttpError, OneloyaltyApiResponseCompanion, OneloyaltyApiResponse<T>, OneloyaltyErrorResponseCompanion, OneloyaltyErrorResponse, OneloyaltyPaginationResponseCompanion, OneloyaltyPaginationResponse<T>, OneloyaltyPagingResponseCompanion, OneloyaltyPagingResponse<T>, OneloyaltyJsonProvider, OneloyaltyKotlinx_serialization_jsonJson, OneloyaltyOnAppDataStorageAccessible, OneloyaltyKtor_client_coreHttpClientConfig<T>, OneloyaltyKtor_client_coreHttpClient, OneloyaltyKotlinx_serialization_jsonJsonElement, OneloyaltyKotlinException, OneloyaltyKotlinRuntimeException, OneloyaltyKotlinIllegalStateException, OneloyaltyKotlinx_serialization_coreSerializersModule, OneloyaltyKotlinx_serialization_coreSerialKind, OneloyaltyKotlinNothing, OneloyaltyKotlinx_serialization_jsonJsonDefault, OneloyaltyKotlinx_serialization_jsonJsonConfiguration, OneloyaltyKtor_client_coreHttpClientEngineConfig, OneloyaltyKtor_eventsEvents, OneloyaltyKtor_client_coreHttpReceivePipeline, OneloyaltyKtor_client_coreHttpRequestPipeline, OneloyaltyKtor_client_coreHttpResponsePipeline, OneloyaltyKtor_client_coreHttpSendPipeline, OneloyaltyKtor_utilsAttributeKey<T>, OneloyaltyKotlinx_serialization_jsonJsonElementCompanion, OneloyaltyKtor_client_coreHttpRequestData, OneloyaltyKtor_client_coreHttpResponseData, OneloyaltyKotlinx_coroutines_coreCoroutineDispatcher, OneloyaltyKtor_client_coreProxyConfig, OneloyaltyKtor_eventsEventDefinition<T>, OneloyaltyKtor_utilsPipelinePhase, OneloyaltyKtor_utilsPipeline<TSubject, TContext>, OneloyaltyKtor_client_coreHttpReceivePipelinePhases, OneloyaltyKtor_client_coreHttpResponse, OneloyaltyKotlinUnit, OneloyaltyKtor_client_coreHttpRequestPipelinePhases, OneloyaltyKtor_client_coreHttpRequestBuilder, OneloyaltyKtor_client_coreHttpResponsePipelinePhases, OneloyaltyKtor_client_coreHttpResponseContainer, OneloyaltyKtor_client_coreHttpClientCall, OneloyaltyKtor_client_coreHttpSendPipelinePhases, OneloyaltyKtor_httpUrl, OneloyaltyKtor_httpHttpMethod, OneloyaltyKtor_httpOutgoingContent, OneloyaltyKtor_httpHttpStatusCode, OneloyaltyKtor_utilsGMTDate, OneloyaltyKtor_httpHttpProtocolVersion, OneloyaltyKotlinAbstractCoroutineContextElement, OneloyaltyKotlinx_coroutines_coreCoroutineDispatcherKey, OneloyaltyKtor_httpHeadersBuilder, OneloyaltyKtor_client_coreHttpRequestBuilderCompanion, OneloyaltyKtor_httpURLBuilder, OneloyaltyKtor_utilsTypeInfo, OneloyaltyKtor_client_coreHttpClientCallCompanion, OneloyaltyKtor_httpUrlCompanion, OneloyaltyKtor_httpURLProtocol, OneloyaltyKtor_httpHttpMethodCompanion, OneloyaltyKtor_httpContentType, OneloyaltyKotlinCancellationException, OneloyaltyKtor_httpHttpStatusCodeCompanion, OneloyaltyKtor_utilsGMTDateCompanion, OneloyaltyKtor_utilsWeekDay, OneloyaltyKtor_utilsMonth, OneloyaltyKtor_httpHttpProtocolVersionCompanion, OneloyaltyKotlinAbstractCoroutineContextKey<B, E>, OneloyaltyKtor_ioMemory, OneloyaltyKtor_ioChunkBuffer, OneloyaltyKtor_ioBuffer, OneloyaltyKotlinByteArray, OneloyaltyKtor_ioByteReadPacket, OneloyaltyKtor_utilsStringValuesBuilderImpl, OneloyaltyKtor_httpURLBuilderCompanion, OneloyaltyKtor_httpURLProtocolCompanion, OneloyaltyKtor_httpHeaderValueParam, OneloyaltyKtor_httpHeaderValueWithParametersCompanion, OneloyaltyKtor_httpHeaderValueWithParameters, OneloyaltyKtor_httpContentTypeCompanion, OneloyaltyKtor_utilsWeekDayCompanion, OneloyaltyKtor_utilsMonthCompanion, OneloyaltyKtor_ioMemoryCompanion, OneloyaltyKtor_ioBufferCompanion, OneloyaltyKtor_ioChunkBufferCompanion, OneloyaltyKotlinByteIterator, OneloyaltyKtor_ioInputCompanion, OneloyaltyKtor_ioInput, OneloyaltyKtor_ioByteReadPacketCompanion, OneloyaltyKotlinKTypeProjection, OneloyaltyKotlinKVariance, OneloyaltyKotlinKTypeProjectionCompanion;
 
-@protocol OneloyaltyAuthenticatorListener, OneloyaltyLoyaltyService, OneloyaltyOnRequestServiceErrorListener, OneloyaltyRemoteConfigService, OneloyaltyKotlinx_serialization_coreKSerializer, OneloyaltyJsonEncode, OneloyaltyFactDetail, OneloyaltyKotlinComparable, OneloyaltyKotlinx_serialization_coreEncoder, OneloyaltyKotlinx_serialization_coreSerialDescriptor, OneloyaltyKotlinx_serialization_coreSerializationStrategy, OneloyaltyKotlinx_serialization_coreDecoder, OneloyaltyKotlinx_serialization_coreDeserializationStrategy, OneloyaltyOnAppDataStorageInterface, OneloyaltyKtor_client_coreHttpClientPlugin, OneloyaltyKtor_client_coreHttpClientEngineFactory, OneloyaltyKtor_httpParametersBuilder, OneloyaltyKotlinIterator, OneloyaltyKotlinx_serialization_coreCompositeEncoder, OneloyaltyKotlinAnnotation, OneloyaltyKotlinx_serialization_coreCompositeDecoder, OneloyaltyKotlinx_serialization_coreSerialFormat, OneloyaltyKotlinx_serialization_coreStringFormat, OneloyaltyKotlinCoroutineContext, OneloyaltyKotlinx_coroutines_coreCoroutineScope, OneloyaltyKtor_ioCloseable, OneloyaltyKtor_client_coreHttpClientEngine, OneloyaltyKtor_client_coreHttpClientEngineCapability, OneloyaltyKtor_utilsAttributes, OneloyaltyKtor_utilsStringValues, OneloyaltyKotlinMapEntry, OneloyaltyKtor_utilsStringValuesBuilder, OneloyaltyKotlinx_serialization_coreSerializersModuleCollector, OneloyaltyKotlinKClass, OneloyaltyKotlinCoroutineContextElement, OneloyaltyKotlinCoroutineContextKey, OneloyaltyKotlinx_coroutines_coreDisposableHandle, OneloyaltyKotlinSuspendFunction2, OneloyaltyKotlinKDeclarationContainer, OneloyaltyKotlinKAnnotatedElement, OneloyaltyKotlinKClassifier, OneloyaltyKtor_httpHeaders, OneloyaltyKotlinx_coroutines_coreJob, OneloyaltyKotlinContinuation, OneloyaltyKotlinContinuationInterceptor, OneloyaltyKotlinx_coroutines_coreRunnable, OneloyaltyKotlinFunction, OneloyaltyKtor_httpHttpMessage, OneloyaltyKtor_ioByteReadChannel, OneloyaltyKtor_httpHttpMessageBuilder, OneloyaltyKtor_client_coreHttpRequest, OneloyaltyKtor_httpParameters, OneloyaltyKotlinx_coroutines_coreChildHandle, OneloyaltyKotlinx_coroutines_coreChildJob, OneloyaltyKotlinSequence, OneloyaltyKotlinx_coroutines_coreSelectClause0, OneloyaltyKtor_ioReadSession, OneloyaltyKotlinSuspendFunction1, OneloyaltyKotlinAppendable, OneloyaltyKotlinKType, OneloyaltyKotlinx_coroutines_coreParentJob, OneloyaltyKotlinx_coroutines_coreSelectInstance, OneloyaltyKotlinx_coroutines_coreSelectClause, OneloyaltyKtor_ioObjectPool;
+@protocol OneloyaltyDeviceInfo, OneloyaltyAuthenticatorListener, OneloyaltyLoyaltyService, OneloyaltyOnRequestServiceErrorListener, OneloyaltyRemoteConfigService, OneloyaltyTrackingService, OneloyaltyKotlinx_serialization_coreKSerializer, OneloyaltyJsonEncode, OneloyaltyFactDetail, OneloyaltyKotlinComparable, OneloyaltyKotlinx_serialization_coreEncoder, OneloyaltyKotlinx_serialization_coreSerialDescriptor, OneloyaltyKotlinx_serialization_coreSerializationStrategy, OneloyaltyKotlinx_serialization_coreDecoder, OneloyaltyKotlinx_serialization_coreDeserializationStrategy, OneloyaltyOnAppDataStorageInterface, OneloyaltyKtor_client_coreHttpClientPlugin, OneloyaltyKtor_client_coreHttpClientEngineFactory, OneloyaltyKtor_httpParametersBuilder, OneloyaltyKotlinIterator, OneloyaltyKotlinx_serialization_coreCompositeEncoder, OneloyaltyKotlinAnnotation, OneloyaltyKotlinx_serialization_coreCompositeDecoder, OneloyaltyKotlinx_serialization_coreSerialFormat, OneloyaltyKotlinx_serialization_coreStringFormat, OneloyaltyKotlinCoroutineContext, OneloyaltyKotlinx_coroutines_coreCoroutineScope, OneloyaltyKtor_ioCloseable, OneloyaltyKtor_client_coreHttpClientEngine, OneloyaltyKtor_client_coreHttpClientEngineCapability, OneloyaltyKtor_utilsAttributes, OneloyaltyKtor_utilsStringValues, OneloyaltyKotlinMapEntry, OneloyaltyKtor_utilsStringValuesBuilder, OneloyaltyKotlinx_serialization_coreSerializersModuleCollector, OneloyaltyKotlinKClass, OneloyaltyKotlinCoroutineContextElement, OneloyaltyKotlinCoroutineContextKey, OneloyaltyKotlinx_coroutines_coreDisposableHandle, OneloyaltyKotlinSuspendFunction2, OneloyaltyKotlinKDeclarationContainer, OneloyaltyKotlinKAnnotatedElement, OneloyaltyKotlinKClassifier, OneloyaltyKtor_httpHeaders, OneloyaltyKotlinx_coroutines_coreJob, OneloyaltyKotlinContinuation, OneloyaltyKotlinContinuationInterceptor, OneloyaltyKotlinx_coroutines_coreRunnable, OneloyaltyKotlinFunction, OneloyaltyKtor_httpHttpMessage, OneloyaltyKtor_ioByteReadChannel, OneloyaltyKtor_httpHttpMessageBuilder, OneloyaltyKtor_client_coreHttpRequest, OneloyaltyKtor_httpParameters, OneloyaltyKotlinx_coroutines_coreChildHandle, OneloyaltyKotlinx_coroutines_coreChildJob, OneloyaltyKotlinSequence, OneloyaltyKotlinx_coroutines_coreSelectClause0, OneloyaltyKtor_ioReadSession, OneloyaltyKotlinSuspendFunction1, OneloyaltyKotlinAppendable, OneloyaltyKotlinKType, OneloyaltyKotlinx_coroutines_coreParentJob, OneloyaltyKotlinx_coroutines_coreSelectInstance, OneloyaltyKotlinx_coroutines_coreSelectClause, OneloyaltyKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -145,6 +145,47 @@ __attribute__((swift_name("KotlinBoolean")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnTracking")))
+@interface OneloyaltyOnTracking : OneloyaltyBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)onTracking __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) OneloyaltyOnTracking *shared __attribute__((swift_name("shared")));
+- (void)trackEventName:(NSString *)name properties:(NSDictionary<NSString *, id> * _Nullable)properties forceCleanQueue:(BOOL)forceCleanQueue __attribute__((swift_name("trackEvent(name:properties:forceCleanQueue:)")));
+- (void)trackViewName:(NSString *)name properties:(NSDictionary<NSString *, id> * _Nullable)properties __attribute__((swift_name("trackView(name:properties:)")));
+@end
+
+__attribute__((swift_name("DeviceInfo")))
+@protocol OneloyaltyDeviceInfo
+@required
+@property (readonly) NSString *deviceModel __attribute__((swift_name("deviceModel")));
+@property (readonly) NSString *osVersion __attribute__((swift_name("osVersion")));
+@property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@property (readonly) NSString *timezone __attribute__((swift_name("timezone")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceInfoImpl")))
+@interface OneloyaltyDeviceInfoImpl : OneloyaltyBase <OneloyaltyDeviceInfo>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) NSString *deviceModel __attribute__((swift_name("deviceModel")));
+@property (readonly) NSString *osVersion __attribute__((swift_name("osVersion")));
+@property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@property (readonly) NSString *timezone __attribute__((swift_name("timezone")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceInfoProvider")))
+@interface OneloyaltyDeviceInfoProvider : OneloyaltyBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)deviceInfoProvider __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) OneloyaltyDeviceInfoProvider *shared __attribute__((swift_name("shared")));
+@property (readonly) id<OneloyaltyDeviceInfo> deviceInfo __attribute__((swift_name("deviceInfo")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("OneLoyalty")))
 @interface OneloyaltyOneLoyalty : OneloyaltyBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -157,12 +198,14 @@ __attribute__((swift_name("OneLoyalty")))
 - (void)clearToken __attribute__((swift_name("clearToken()")));
 - (NSString * _Nullable)getDeviceLanguage __attribute__((swift_name("getDeviceLanguage()")));
 - (void)registerAuthenticatorListenerAuthenticatorListener:(id<OneloyaltyAuthenticatorListener>)authenticatorListener __attribute__((swift_name("registerAuthenticatorListener(authenticatorListener:)")));
+- (void)registerProfileUser:(OneloyaltyUserProfile *)user __attribute__((swift_name("registerProfile(user:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)setupConfig:(OneloyaltyConfig *)config keychainServiceName:(NSString *)keychainServiceName keychainAccessGroup:(NSString * _Nullable)keychainAccessGroup platform:(OneloyaltyPlatform *)platform completionHandler:(void (^)(OneloyaltyRemoteConfig * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("setup(config:keychainServiceName:keychainAccessGroup:platform:completionHandler:)")));
+- (void)setupConfig:(OneloyaltyConfig *)config appContext:(OneloyaltyAppContext *)appContext keychainServiceName:(NSString *)keychainServiceName keychainAccessGroup:(NSString * _Nullable)keychainAccessGroup platform:(OneloyaltyPlatform *)platform completionHandler:(void (^)(OneloyaltyRemoteConfig * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("setup(config:appContext:keychainServiceName:keychainAccessGroup:platform:completionHandler:)")));
+@property (readonly) OneloyaltyAppContext * _Nullable appContext __attribute__((swift_name("appContext")));
 @property (readonly) id<OneloyaltyAuthenticatorListener> _Nullable authenticatorListener __attribute__((swift_name("authenticatorListener")));
 @property (readonly) NSArray<OneloyaltyCertificatePinning *> *certificatePinning __attribute__((swift_name("certificatePinning")));
 @property (readonly) OneloyaltyRemoteConfig *config __attribute__((swift_name("config")));
@@ -173,6 +216,8 @@ __attribute__((swift_name("OneLoyalty")))
 @property (readonly) id<OneloyaltyOnRequestServiceErrorListener> _Nullable onRequestServiceErrorListener __attribute__((swift_name("onRequestServiceErrorListener")));
 @property (readonly) OneloyaltyPlatform *platform __attribute__((swift_name("platform")));
 @property (readonly) id<OneloyaltyRemoteConfigService> remoteConfigService __attribute__((swift_name("remoteConfigService")));
+@property (readonly) OneloyaltyConfig *sdkConfig __attribute__((swift_name("sdkConfig")));
+@property (readonly) id<OneloyaltyTrackingService> trackingService __attribute__((swift_name("trackingService")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -190,9 +235,11 @@ __attribute__((swift_name("CertificatePinning")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Config")))
 @interface OneloyaltyConfig : OneloyaltyBase
-- (instancetype)initWithApiToken:(NSString *)apiToken apiKey:(NSString *)apiKey clientId:(NSString *)clientId defaultConfig:(OneloyaltyRemoteConfig * _Nullable)defaultConfig requestTimeout:(int64_t)requestTimeout certificatePinning:(NSArray<OneloyaltyCertificatePinning *> *)certificatePinning __attribute__((swift_name("init(apiToken:apiKey:clientId:defaultConfig:requestTimeout:certificatePinning:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithApiKey:(NSString *)apiKey apiToken:(NSString *)apiToken clientId:(NSString *)clientId apiTokenKey:(NSString *)apiTokenKey apiClientIdKey:(NSString *)apiClientIdKey defaultConfig:(OneloyaltyRemoteConfig * _Nullable)defaultConfig requestTimeout:(int64_t)requestTimeout certificatePinning:(NSArray<OneloyaltyCertificatePinning *> *)certificatePinning __attribute__((swift_name("init(apiKey:apiToken:clientId:apiTokenKey:apiClientIdKey:defaultConfig:requestTimeout:certificatePinning:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *apiClientIdKey __attribute__((swift_name("apiClientIdKey")));
 @property (readonly) NSString *apiKey __attribute__((swift_name("apiKey")));
 @property (readonly) NSString *apiToken __attribute__((swift_name("apiToken")));
+@property (readonly) NSString *apiTokenKey __attribute__((swift_name("apiTokenKey")));
 @property (readonly) NSArray<OneloyaltyCertificatePinning *> *certificatePinning __attribute__((swift_name("certificatePinning")));
 @property (readonly) NSString *clientId __attribute__((swift_name("clientId")));
 @property (readonly) OneloyaltyRemoteConfig * _Nullable defaultConfig __attribute__((swift_name("defaultConfig")));
@@ -455,9 +502,9 @@ __attribute__((swift_name("JsonEncode")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Device")))
 @interface OneloyaltyDevice : OneloyaltyBase <OneloyaltyJsonEncode>
-- (instancetype)initWithId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt __attribute__((swift_name("init(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("init(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:width:height:manufacturer:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) OneloyaltyDeviceCompanion *companion __attribute__((swift_name("companion")));
-- (OneloyaltyDevice *)doCopyId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt __attribute__((swift_name("doCopy(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:)")));
+- (OneloyaltyDevice *)doCopyId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("doCopy(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:width:height:manufacturer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isSameContentOther:(OneloyaltyDevice * _Nullable)other __attribute__((swift_name("isSameContent(other:)")));
@@ -467,8 +514,10 @@ __attribute__((swift_name("Device")))
 @property (readonly) NSString * _Nullable acceptedTermsAndConditionsVersion __attribute__((swift_name("acceptedTermsAndConditionsVersion")));
 @property (readonly) OneloyaltyLong * _Nullable createdAt __attribute__((swift_name("createdAt")));
 @property (readonly) NSString * _Nullable createdBy __attribute__((swift_name("createdBy")));
+@property (readonly) NSString * _Nullable height __attribute__((swift_name("height")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable language __attribute__((swift_name("language")));
+@property (readonly) NSString * _Nullable manufacturer __attribute__((swift_name("manufacturer")));
 @property (readonly) NSString * _Nullable model __attribute__((swift_name("model")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSString * _Nullable os __attribute__((swift_name("os")));
@@ -481,6 +530,7 @@ __attribute__((swift_name("Device")))
 @property (readonly) OneloyaltyLong * _Nullable updatedAt __attribute__((swift_name("updatedAt")));
 @property (readonly) NSString * _Nullable updatedBy __attribute__((swift_name("updatedBy")));
 @property (readonly) NSString * _Nullable vid __attribute__((swift_name("vid")));
+@property (readonly) NSString * _Nullable width __attribute__((swift_name("width")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1835,15 +1885,17 @@ __attribute__((swift_name("MissionTypeSerializer")))
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserProfile")))
-@interface OneloyaltyUserProfile : OneloyaltyBase
-- (instancetype)initWithId:(NSString *)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName state:(NSString * _Nullable)state avatarUrl:(NSString * _Nullable)avatarUrl phoneNumber:(NSString * _Nullable)phoneNumber email:(NSString * _Nullable)email gender:(OneloyaltyGender * _Nullable)gender birthDay:(OneloyaltyInt * _Nullable)birthDay birthMonth:(OneloyaltyInt * _Nullable)birthMonth birthYear:(OneloyaltyInt * _Nullable)birthYear saymeePhoneNumber:(NSString * _Nullable)saymeePhoneNumber emailVerified:(OneloyaltyBoolean * _Nullable)emailVerified __attribute__((swift_name("init(id:firstName:lastName:state:avatarUrl:phoneNumber:email:gender:birthDay:birthMonth:birthYear:saymeePhoneNumber:emailVerified:)"))) __attribute__((objc_designated_initializer));
+@interface OneloyaltyUserProfile : OneloyaltyBase <OneloyaltyJsonEncode>
+- (instancetype)initWithId:(NSString *)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName state:(NSString * _Nullable)state avatarUrl:(NSString * _Nullable)avatarUrl phoneNumber:(NSString * _Nullable)phoneNumber email:(NSString * _Nullable)email gender:(OneloyaltyGender * _Nullable)gender birthDay:(OneloyaltyInt * _Nullable)birthDay birthMonth:(OneloyaltyInt * _Nullable)birthMonth birthYear:(OneloyaltyInt * _Nullable)birthYear saymeePhoneNumber:(NSString * _Nullable)saymeePhoneNumber emailVerified:(OneloyaltyBoolean * _Nullable)emailVerified attributes:(NSDictionary<NSString *, id> * _Nullable)attributes __attribute__((swift_name("init(id:firstName:lastName:state:avatarUrl:phoneNumber:email:gender:birthDay:birthMonth:birthYear:saymeePhoneNumber:emailVerified:attributes:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) OneloyaltyUserProfileCompanion *companion __attribute__((swift_name("companion")));
-- (OneloyaltyUserProfile *)doCopyId:(NSString *)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName state:(NSString * _Nullable)state avatarUrl:(NSString * _Nullable)avatarUrl phoneNumber:(NSString * _Nullable)phoneNumber email:(NSString * _Nullable)email gender:(OneloyaltyGender * _Nullable)gender birthDay:(OneloyaltyInt * _Nullable)birthDay birthMonth:(OneloyaltyInt * _Nullable)birthMonth birthYear:(OneloyaltyInt * _Nullable)birthYear saymeePhoneNumber:(NSString * _Nullable)saymeePhoneNumber emailVerified:(OneloyaltyBoolean * _Nullable)emailVerified __attribute__((swift_name("doCopy(id:firstName:lastName:state:avatarUrl:phoneNumber:email:gender:birthDay:birthMonth:birthYear:saymeePhoneNumber:emailVerified:)")));
+- (OneloyaltyUserProfile *)doCopyId:(NSString *)id firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName state:(NSString * _Nullable)state avatarUrl:(NSString * _Nullable)avatarUrl phoneNumber:(NSString * _Nullable)phoneNumber email:(NSString * _Nullable)email gender:(OneloyaltyGender * _Nullable)gender birthDay:(OneloyaltyInt * _Nullable)birthDay birthMonth:(OneloyaltyInt * _Nullable)birthMonth birthYear:(OneloyaltyInt * _Nullable)birthYear saymeePhoneNumber:(NSString * _Nullable)saymeePhoneNumber emailVerified:(OneloyaltyBoolean * _Nullable)emailVerified attributes:(NSDictionary<NSString *, id> * _Nullable)attributes __attribute__((swift_name("doCopy(id:firstName:lastName:state:avatarUrl:phoneNumber:email:gender:birthDay:birthMonth:birthYear:saymeePhoneNumber:emailVerified:attributes:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 - (NSString * _Nullable)userId __attribute__((swift_name("userId()")));
 - (NSString *)userName __attribute__((swift_name("userName()")));
+@property (readonly) NSDictionary<NSString *, id> * _Nullable attributes __attribute__((swift_name("attributes")));
 @property (readonly) NSString * _Nullable avatarUrl __attribute__((swift_name("avatarUrl")));
 @property (readonly) OneloyaltyInt * _Nullable birthDay __attribute__((swift_name("birthDay")));
 @property (readonly) OneloyaltyInt * _Nullable birthMonth __attribute__((swift_name("birthMonth")));
@@ -1866,6 +1918,79 @@ __attribute__((swift_name("UserProfile.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) OneloyaltyUserProfileCompanion *shared __attribute__((swift_name("shared")));
+- (OneloyaltyUserProfile *)fromStringJson:(NSString *)json __attribute__((swift_name("fromString(json:)")));
+- (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("App")))
+@interface OneloyaltyApp : OneloyaltyBase
+- (instancetype)initWithBuild:(NSString *)build bundleId:(NSString *)bundleId name:(NSString *)name version:(NSString *)version __attribute__((swift_name("init(build:bundleId:name:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) OneloyaltyAppCompanion *companion __attribute__((swift_name("companion")));
+- (OneloyaltyApp *)doCopyBuild:(NSString *)build bundleId:(NSString *)bundleId name:(NSString *)name version:(NSString *)version __attribute__((swift_name("doCopy(build:bundleId:name:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *build __attribute__((swift_name("build")));
+@property (readonly) NSString *bundleId __attribute__((swift_name("bundleId")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("App.Companion")))
+@interface OneloyaltyAppCompanion : OneloyaltyBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) OneloyaltyAppCompanion *shared __attribute__((swift_name("shared")));
+- (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AppContext")))
+@interface OneloyaltyAppContext : OneloyaltyBase
+- (instancetype)initWithAppInformation:(OneloyaltyApp *)appInformation sdk:(OneloyaltySdk *)sdk device:(OneloyaltyDevice *)device __attribute__((swift_name("init(appInformation:sdk:device:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) OneloyaltyAppContextCompanion *companion __attribute__((swift_name("companion")));
+- (OneloyaltyAppContext *)doCopyAppInformation:(OneloyaltyApp *)appInformation sdk:(OneloyaltySdk *)sdk device:(OneloyaltyDevice *)device __attribute__((swift_name("doCopy(appInformation:sdk:device:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) OneloyaltyApp *appInformation __attribute__((swift_name("appInformation")));
+@property (readonly) OneloyaltyDevice *device __attribute__((swift_name("device")));
+@property (readonly) OneloyaltySdk *sdk __attribute__((swift_name("sdk")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AppContext.Companion")))
+@interface OneloyaltyAppContextCompanion : OneloyaltyBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) OneloyaltyAppContextCompanion *shared __attribute__((swift_name("shared")));
+- (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Sdk")))
+@interface OneloyaltySdk : OneloyaltyBase
+- (instancetype)initWithName:(NSString *)name version:(NSString *)version __attribute__((swift_name("init(name:version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) OneloyaltySdkCompanion *companion __attribute__((swift_name("companion")));
+- (OneloyaltySdk *)doCopyName:(NSString *)name version:(NSString *)version __attribute__((swift_name("doCopy(name:version:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Sdk.Companion")))
+@interface OneloyaltySdkCompanion : OneloyaltyBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) OneloyaltySdkCompanion *shared __attribute__((swift_name("shared")));
 - (id<OneloyaltyKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2395,7 +2520,9 @@ __attribute__((swift_name("OneLoyaltyKt")))
 + (id<OneloyaltyAuthenticatorListener> _Nullable)authenticatorListener __attribute__((swift_name("authenticatorListener()")));
 + (OneloyaltyRemoteConfig *)getConfig __attribute__((swift_name("getConfig()")));
 + (id<OneloyaltyKtor_client_coreHttpClientEngineFactory>)getHttpClientEngine __attribute__((swift_name("getHttpClientEngine()")));
++ (OneloyaltyConfig *)getSdkConfig __attribute__((swift_name("getSdkConfig()")));
 + (id<OneloyaltyOnRequestServiceErrorListener> _Nullable)onRequestErrorListener __attribute__((swift_name("onRequestErrorListener()")));
+@property (class, readonly) OneloyaltyAppContext * _Nullable appContext __attribute__((swift_name("appContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2407,6 +2534,8 @@ __attribute__((swift_name("ParameterBuilderKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformKt")))
 @interface OneloyaltyPlatformKt : OneloyaltyBase
++ (NSString *)generateUUID __attribute__((swift_name("generateUUID()")));
++ (int64_t)getCurrentTime __attribute__((swift_name("getCurrentTime()")));
 + (OneloyaltyPlatform *)getPlatform __attribute__((swift_name("getPlatform()")));
 @end
 
