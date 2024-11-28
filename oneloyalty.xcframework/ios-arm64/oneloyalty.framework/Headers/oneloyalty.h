@@ -502,18 +502,14 @@ __attribute__((swift_name("JsonEncode")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Device")))
 @interface OneloyaltyDevice : OneloyaltyBase <OneloyaltyJsonEncode>
-- (instancetype)initWithId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("init(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:width:height:manufacturer:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("init(id:name:model:resolution:timezone:language:os:osVersion:type:width:height:manufacturer:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) OneloyaltyDeviceCompanion *companion __attribute__((swift_name("companion")));
-- (OneloyaltyDevice *)doCopyId:(NSString *)id vid:(NSString * _Nullable)vid name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language token:(NSString * _Nullable)token status:(OneloyaltyBoolean * _Nullable)status os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type acceptedTermsAndConditionsVersion:(NSString * _Nullable)acceptedTermsAndConditionsVersion acceptedTermsAndConditionsAt:(OneloyaltyLong * _Nullable)acceptedTermsAndConditionsAt createdBy:(NSString * _Nullable)createdBy updatedBy:(NSString * _Nullable)updatedBy createdAt:(OneloyaltyLong * _Nullable)createdAt updatedAt:(OneloyaltyLong * _Nullable)updatedAt width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("doCopy(id:vid:name:model:resolution:timezone:language:token:status:os:osVersion:type:acceptedTermsAndConditionsVersion:acceptedTermsAndConditionsAt:createdBy:updatedBy:createdAt:updatedAt:width:height:manufacturer:)")));
+- (OneloyaltyDevice *)doCopyId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model resolution:(NSString * _Nullable)resolution timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("doCopy(id:name:model:resolution:timezone:language:os:osVersion:type:width:height:manufacturer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isSameContentOther:(OneloyaltyDevice * _Nullable)other __attribute__((swift_name("isSameContent(other:)")));
 - (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) OneloyaltyLong * _Nullable acceptedTermsAndConditionsAt __attribute__((swift_name("acceptedTermsAndConditionsAt")));
-@property (readonly) NSString * _Nullable acceptedTermsAndConditionsVersion __attribute__((swift_name("acceptedTermsAndConditionsVersion")));
-@property (readonly) OneloyaltyLong * _Nullable createdAt __attribute__((swift_name("createdAt")));
-@property (readonly) NSString * _Nullable createdBy __attribute__((swift_name("createdBy")));
 @property (readonly) NSString * _Nullable height __attribute__((swift_name("height")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable language __attribute__((swift_name("language")));
@@ -523,13 +519,8 @@ __attribute__((swift_name("Device")))
 @property (readonly) NSString * _Nullable os __attribute__((swift_name("os")));
 @property (readonly) NSString * _Nullable osVersion __attribute__((swift_name("osVersion")));
 @property (readonly) NSString * _Nullable resolution __attribute__((swift_name("resolution")));
-@property (readonly) OneloyaltyBoolean * _Nullable status __attribute__((swift_name("status")));
 @property (readonly) NSString * _Nullable timezone __attribute__((swift_name("timezone")));
-@property (readonly) NSString * _Nullable token __attribute__((swift_name("token")));
 @property (readonly) OneloyaltyDeviceType * _Nullable type __attribute__((swift_name("type")));
-@property (readonly) OneloyaltyLong * _Nullable updatedAt __attribute__((swift_name("updatedAt")));
-@property (readonly) NSString * _Nullable updatedBy __attribute__((swift_name("updatedBy")));
-@property (readonly) NSString * _Nullable vid __attribute__((swift_name("vid")));
 @property (readonly) NSString * _Nullable width __attribute__((swift_name("width")));
 @end
 
