@@ -199,6 +199,7 @@ __attribute__((swift_name("OneLoyalty")))
 - (NSString * _Nullable)getDeviceLanguage __attribute__((swift_name("getDeviceLanguage()")));
 - (void)registerAuthenticatorListenerAuthenticatorListener:(id<OneloyaltyAuthenticatorListener>)authenticatorListener __attribute__((swift_name("registerAuthenticatorListener(authenticatorListener:)")));
 - (void)registerProfileUser:(OneloyaltyUserProfile *)user __attribute__((swift_name("registerProfile(user:)")));
+- (void)setTokenToken:(NSString *)token __attribute__((swift_name("setToken(token:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -235,11 +236,9 @@ __attribute__((swift_name("CertificatePinning")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Config")))
 @interface OneloyaltyConfig : OneloyaltyBase
-- (instancetype)initWithApiKey:(NSString *)apiKey apiToken:(NSString *)apiToken clientId:(NSString *)clientId apiTokenKey:(NSString *)apiTokenKey apiClientIdKey:(NSString *)apiClientIdKey defaultConfig:(OneloyaltyRemoteConfig * _Nullable)defaultConfig requestTimeout:(int64_t)requestTimeout certificatePinning:(NSArray<OneloyaltyCertificatePinning *> *)certificatePinning __attribute__((swift_name("init(apiKey:apiToken:clientId:apiTokenKey:apiClientIdKey:defaultConfig:requestTimeout:certificatePinning:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithApiKey:(NSString *)apiKey clientId:(NSString *)clientId apiClientIdKey:(NSString *)apiClientIdKey defaultConfig:(OneloyaltyRemoteConfig * _Nullable)defaultConfig requestTimeout:(int64_t)requestTimeout certificatePinning:(NSArray<OneloyaltyCertificatePinning *> *)certificatePinning __attribute__((swift_name("init(apiKey:clientId:apiClientIdKey:defaultConfig:requestTimeout:certificatePinning:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) NSString *apiClientIdKey __attribute__((swift_name("apiClientIdKey")));
 @property (readonly) NSString *apiKey __attribute__((swift_name("apiKey")));
-@property (readonly) NSString *apiToken __attribute__((swift_name("apiToken")));
-@property (readonly) NSString *apiTokenKey __attribute__((swift_name("apiTokenKey")));
 @property (readonly) NSArray<OneloyaltyCertificatePinning *> *certificatePinning __attribute__((swift_name("certificatePinning")));
 @property (readonly) NSString *clientId __attribute__((swift_name("clientId")));
 @property (readonly) OneloyaltyRemoteConfig * _Nullable defaultConfig __attribute__((swift_name("defaultConfig")));
@@ -502,9 +501,9 @@ __attribute__((swift_name("JsonEncode")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Device")))
 @interface OneloyaltyDevice : OneloyaltyBase <OneloyaltyJsonEncode>
-- (instancetype)initWithId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("init(id:name:model:timezone:language:os:osVersion:type:width:height:manufacturer:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height __attribute__((swift_name("init(id:name:model:timezone:language:os:osVersion:type:width:height:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) OneloyaltyDeviceCompanion *companion __attribute__((swift_name("companion")));
-- (OneloyaltyDevice *)doCopyId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height manufacturer:(NSString * _Nullable)manufacturer __attribute__((swift_name("doCopy(id:name:model:timezone:language:os:osVersion:type:width:height:manufacturer:)")));
+- (OneloyaltyDevice *)doCopyId:(NSString *)id name:(NSString * _Nullable)name model:(NSString * _Nullable)model timezone:(NSString * _Nullable)timezone language:(NSString * _Nullable)language os:(NSString * _Nullable)os osVersion:(NSString * _Nullable)osVersion type:(OneloyaltyDeviceType * _Nullable)type width:(NSString * _Nullable)width height:(NSString * _Nullable)height __attribute__((swift_name("doCopy(id:name:model:timezone:language:os:osVersion:type:width:height:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isSameContentOther:(OneloyaltyDevice * _Nullable)other __attribute__((swift_name("isSameContent(other:)")));
@@ -513,7 +512,6 @@ __attribute__((swift_name("Device")))
 @property (readonly) NSString * _Nullable height __attribute__((swift_name("height")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable language __attribute__((swift_name("language")));
-@property (readonly) NSString * _Nullable manufacturer __attribute__((swift_name("manufacturer")));
 @property (readonly) NSString * _Nullable model __attribute__((swift_name("model")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSString * _Nullable os __attribute__((swift_name("os")));
