@@ -1937,15 +1937,15 @@ __attribute__((swift_name("App.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppContext")))
 @interface OneloyaltyAppContext : OneloyaltyBase
-- (instancetype)initWithAppInformation:(OneloyaltyApp *)appInformation sdk:(OneloyaltySdk *)sdk device:(OneloyaltyLoyaltyDevice *)device __attribute__((swift_name("init(appInformation:sdk:device:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithAppInformation:(OneloyaltyApp *)appInformation device:(OneloyaltyLoyaltyDevice *)device sdk:(OneloyaltySdk * _Nullable)sdk __attribute__((swift_name("init(appInformation:device:sdk:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) OneloyaltyAppContextCompanion *companion __attribute__((swift_name("companion")));
-- (OneloyaltyAppContext *)doCopyAppInformation:(OneloyaltyApp *)appInformation sdk:(OneloyaltySdk *)sdk device:(OneloyaltyLoyaltyDevice *)device __attribute__((swift_name("doCopy(appInformation:sdk:device:)")));
+- (OneloyaltyAppContext *)doCopyAppInformation:(OneloyaltyApp *)appInformation device:(OneloyaltyLoyaltyDevice *)device sdk:(OneloyaltySdk * _Nullable)sdk __attribute__((swift_name("doCopy(appInformation:device:sdk:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) OneloyaltyApp *appInformation __attribute__((swift_name("appInformation")));
 @property (readonly) OneloyaltyLoyaltyDevice *device __attribute__((swift_name("device")));
-@property (readonly) OneloyaltySdk *sdk __attribute__((swift_name("sdk")));
+@property (readonly) OneloyaltySdk * _Nullable sdk __attribute__((swift_name("sdk")));
 @end
 
 __attribute__((objc_subclassing_restricted))
