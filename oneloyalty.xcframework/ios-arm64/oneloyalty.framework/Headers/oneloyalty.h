@@ -2280,7 +2280,7 @@ __attribute__((swift_name("LoyaltyService")))
  * @note This method converts instances of ONError, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)claimCheckInPointClaimRequest:(OneloyaltyClaimRequest *)claimRequest completionHandler:(void (^)(OneloyaltyBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("claimCheckInPoint(claimRequest:completionHandler:)")));
+- (void)claimCheckInPointWithCompletionHandler:(void (^)(OneloyaltyBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("claimCheckInPoint(completionHandler:)")));
 
 /**
  * @note This method converts instances of ONError, CancellationException to errors.

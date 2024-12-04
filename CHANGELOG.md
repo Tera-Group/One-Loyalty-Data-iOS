@@ -1,4 +1,7 @@
-## 0.1.1
+## 0.1.4
+* Update claimCheckInPoint flow
+
+## 0.1.3
 * Correct request tracking
 * Fix in case accessToken expired
 
