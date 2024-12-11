@@ -1835,13 +1835,18 @@ __attribute__((swift_name("MissionType")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) OneloyaltyMissionTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) OneloyaltyMissionType *checkIn __attribute__((swift_name("checkIn")));
 @property (class, readonly) OneloyaltyMissionType *firstLogin __attribute__((swift_name("firstLogin")));
 @property (class, readonly) OneloyaltyMissionType *enableNotification __attribute__((swift_name("enableNotification")));
 @property (class, readonly) OneloyaltyMissionType *updateProfile __attribute__((swift_name("updateProfile")));
+@property (class, readonly) OneloyaltyMissionType *referral __attribute__((swift_name("referral")));
 @property (class, readonly) OneloyaltyMissionType *shareVideo __attribute__((swift_name("shareVideo")));
 @property (class, readonly) OneloyaltyMissionType *watchVideo __attribute__((swift_name("watchVideo")));
 @property (class, readonly) OneloyaltyMissionType *watchAds __attribute__((swift_name("watchAds")));
-@property (class, readonly) OneloyaltyMissionType *referral __attribute__((swift_name("referral")));
+@property (class, readonly) OneloyaltyMissionType *ratingApp __attribute__((swift_name("ratingApp")));
+@property (class, readonly) OneloyaltyMissionType *theNewSurvey __attribute__((swift_name("theNewSurvey")));
+@property (class, readonly) OneloyaltyMissionType *completeGameLevel __attribute__((swift_name("completeGameLevel")));
+@property (class, readonly) OneloyaltyMissionType *packagePurchase __attribute__((swift_name("packagePurchase")));
 @property (class, readonly) OneloyaltyMissionType *unknown __attribute__((swift_name("unknown")));
 + (OneloyaltyKotlinArray<OneloyaltyMissionType *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<OneloyaltyMissionType *> *entries __attribute__((swift_name("entries")));
@@ -2280,7 +2285,7 @@ __attribute__((swift_name("LoyaltyService")))
  * @note This method converts instances of ONError, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)claimCheckInPointClaimRequest:(OneloyaltyClaimRequest *)claimRequest completionHandler:(void (^)(OneloyaltyBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("claimCheckInPoint(claimRequest:completionHandler:)")));
+- (void)claimCheckInPointWithCompletionHandler:(void (^)(OneloyaltyBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("claimCheckInPoint(completionHandler:)")));
 
 /**
  * @note This method converts instances of ONError, CancellationException to errors.
